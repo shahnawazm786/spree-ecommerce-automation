@@ -1,6 +1,11 @@
 package org.utils.repository;
 
+/**
+ * @author Mohammad Shahnawaz
+ */
 public interface IConfiguration {
 //Base file
-    final String baseFolder="src/java/resources";
+     String MAIN_BASE_FOLDER="src/java/resources";
+     String TEST_BASE_FOLDER="src/test/resources";
+
 }
