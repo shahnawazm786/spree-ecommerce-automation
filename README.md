@@ -5,5 +5,6 @@ Framework contains END to END Automation Test for Regression
 * Java 21 latest
 * Selenium latest
 * TestNG latest
-* ![img.png](img.png)
 
+
+![](src/test/resources/images/testing_image.gif)
