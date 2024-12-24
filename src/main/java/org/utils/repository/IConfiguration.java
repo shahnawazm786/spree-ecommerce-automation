@@ -11,4 +11,5 @@ public interface IConfiguration {
      String BASE_DATA="/data";
      String DATA_XLSX="/excel";
 
+
 }
