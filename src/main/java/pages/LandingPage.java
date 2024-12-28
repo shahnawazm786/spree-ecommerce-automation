@@ -7,6 +7,6 @@ public class LandingPage {
     private WebDriver driver;
     public LandingPage(WebDriver driver){
         this.driver=driver;
-        PageFactory.initElements(driver,this);
+       PageFactory.initElements(driver,this);
     }
 }
