@@ -8,5 +8,6 @@ public class LandingPage {
     public LandingPage(WebDriver driver){
         this.driver=driver;
        PageFactory.initElements(driver,this);
+
     }
 }
