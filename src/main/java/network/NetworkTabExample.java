@@ -26,9 +26,13 @@ public class NetworkTabExample {
                 "}";
 
          */
+        String javaScriptScript = "var performance = window.performance || window.mozPerformance || "
+                + "window.msPerformance || window.webkitPerformance || "
+                + "{}; var network = performance.getEntries() || {}; return JSON.stringify(network)";
+
         String script="return window.performance.getEntriesByType('resource');";
         //Object data=js.executeScript(" return performance.getEntries();");
-        Object data=js.executeScript(script);
+        Object data=js.executeScript(javaScriptScript);
         System.out.println("=========== Entries data ============");
         System.out.println(data);
         System.out.println("==============================");
